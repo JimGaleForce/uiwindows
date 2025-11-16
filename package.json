@@ -1,0 +1,53 @@
+{
+  "name": "@jimgaleforce/uiwindows",
+  "version": "1.0.0",
+  "description": "A complete React window management system with built-in chat support, embedding comparison, and audio capabilities",
+  "keywords": [
+    "react",
+    "window-manager",
+    "chat",
+    "ui",
+    "multi-panel",
+    "workspace",
+    "theme",
+    "typescript"
+  ],
+  "author": "Jim Gale",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0 || ^19.0.0",
+    "react-dom": "^18.2.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "lucide-react": "^0.263.0",
+    "react-markdown": "^9.0.1",
+    "rehype-raw": "^7.0.0",
+    "rehype-sanitize": "^6.0.0",
+    "remark-gfm": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimGaleForce/uiwindows.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JimGaleForce/uiwindows/issues"
+  },
+  "homepage": "https://github.com/JimGaleForce/uiwindows#readme"
+}
