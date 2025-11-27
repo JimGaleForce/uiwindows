@@ -847,5 +847,5 @@ Contributions are welcome! Please open an issue or pull request on GitHub.
 
 ## Support
 
-- GitHub Issues: https://github.com/yourusername/uiwindows/issues
-- Documentation: https://github.com/yourusername/uiwindows#readme
+- GitHub Issues: https://github.com/jimgaleforce/uiwindows/issues
+- Documentation: https://github.com/jimgaleforce/uiwindows#readme
